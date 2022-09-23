@@ -1,0 +1,449 @@
+<html>
+<head>
+  <link rel="stylesheet" href="Survey.css">
+</head><body>
+
+<div class="Survey">
+    <header class="header">
+      <h1 id="title" class="text-center"> Persuasion Technology & Design Study </h1>
+      <p id="description" class="description text-center">
+        Hi, Welcome to this research study, This survey is aimed at understanding the prevalence & implications of 
+        Persuasion Technology & Design patterns present in digital world today from a user's perspective. 
+      </p>
+    </header>
+    <form id="survey-form">
+      <div class="form-group">
+        <img class="image" src="third.jpeg"></img>
+      </div>
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number"
+          >Age <span class="clue"> </span></label
+        >
+        <input
+          type="number"
+          name="age"
+          id="number"
+          min="18"
+          max="99"
+          class="form-control"
+          placeholder="Age"
+        />
+      </div>
+
+      <div class="form-group">
+        <label id="job-label" for="job">Profession</label>
+        <input
+          type="text"
+          name="job"
+          id="job"
+          class="form-control"
+          placeholder="Enter your Profession"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <p>How often do you use social media or e-commerce?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Select suitable answer</option>
+          <option value="Never"> Never </option>
+          <option value="Sometimes">Sometimes</option>
+          <option value="Regularly">Regularly</option>
+          <option value="All-the-time">All-the-time</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <p>Which social media platforms do you use the most?</p>
+        <label>
+          <input
+            name="user-recommend"
+            value="definitely"
+            type="radio"
+            class="input-radio"
+            checked
+          />Instagram</label
+        >
+        <label>
+          <input
+            name="user-recommend"
+            value="maybe"
+            type="radio"
+            class="input-radio"
+          />Facebook</label
+        >
+  
+        <label
+          ><input
+            name="user-recommend"
+            value="not-sure"
+            type="radio"
+            class="input-radio"
+          />Twitter</label
+        >
+
+        <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Telegram</label
+      >
+
+      <label
+      ><input
+        name="user-recommend"
+        value="not-sure"
+        type="radio"
+        class="input-radio"
+      />Whatsapp</label
+    >
+
+    <label
+    ><input
+      name="user-recommend"
+      value="not-sure"
+      type="radio"
+      class="input-radio"
+    />Snapchat</label
+  >
+
+  <label
+  ><input
+    name="user-recommend"
+    value="not-sure"
+    type="radio"
+    class="input-radio"
+  />Linkedin</label
+>
+      </div>
+  
+      <div class="form-group">
+        <p>Which e-commerce platforms do you use the most?</p>
+        <label>
+          <input
+            name="user-recommend"
+            value="definitely"
+            type="radio"
+            class="input-radio"
+            checked
+          />Amazon</label
+        >
+        <label>
+          <input
+            name="user-recommend"
+            value="maybe"
+            type="radio"
+            class="input-radio"
+          />Flipkart</label
+        >
+  
+        <label
+          ><input
+            name="user-recommend"
+            value="not-sure"
+            type="radio"
+            class="input-radio"
+          />Myntra</label
+        >
+
+        <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Snapdeal</label
+      >
+
+      <label
+      ><input
+        name="user-recommend"
+        value="not-sure"
+        type="radio"
+        class="input-radio"
+      />Swiggy</label
+    >
+
+    <label
+    ><input
+      name="user-recommend"
+      value="not-sure"
+      type="radio"
+      class="input-radio"
+    />Zomato</label
+  >
+
+  <label
+  ><input
+    name="user-recommend"
+    value="not-sure"
+    type="radio"
+    class="input-radio"
+  />Blinkit</label
+>
+      </div>
+      <div class="form-group">
+        <p>
+          Have you ever felt tracked on any digital platforms?
+        </p>
+        <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="challenges">Never</option>
+          <option value="projects">Rarely</option>
+          <option value="community">Regularly</option>
+          <option value="community">Often</option>
+          <option value="openSource">Always</option>
+        </select>
+      </div>
+
+    <div class="form-group">
+      <p>
+        Do you feel the urge to open these platforms again & again?
+      </p>
+      <ul class="likert">
+        <li class="red-text"> Strongly Disagree </li>
+        <li><input type="radio" name="Social-Media" value="1" /></li>
+        <li><input type="radio" name="Social-Media" value="2" /></li>
+        <li><input type="radio" name="Social-Media" value="3" /></li>
+        <li><input type="radio" name="Social-Media" value="4" /></li>
+        <li><input type="radio" name="Social-Media" value="5" /></li>
+        <li class="green-text"> Strongly Agree </li>
+      </ul>
+    </div>
+  <br>
+
+  <div class="form-group">
+    <p>
+      Do you feel these platforms affect your academic or work performance?
+    </p>
+    <ul class="likert">
+      <li class="red-text"> Strongly Disagree </li>
+      <li><input type="radio" name="Social-Media" value="1" /></li>
+      <li><input type="radio" name="Social-Media" value="2" /></li>
+      <li><input type="radio" name="Social-Media" value="3" /></li>
+      <li><input type="radio" name="Social-Media" value="4" /></li>
+      <li><input type="radio" name="Social-Media" value="5" /></li>
+      <li class="green-text"> Strongly Agree </li>
+    </ul>
+  </div>
+<br>
+<div class="form-group">
+  <p>
+    Do social conversations influence your product choices?
+  </p>
+  <ul class="likert">
+    <li class="red-text"> Strongly Disagree </li>
+    <li><input type="radio" name="Social-Media" value="1" /></li>
+    <li><input type="radio" name="Social-Media" value="2" /></li>
+    <li><input type="radio" name="Social-Media" value="3" /></li>
+    <li><input type="radio" name="Social-Media" value="4" /></li>
+    <li><input type="radio" name="Social-Media" value="5" /></li>
+    <li class="green-text"> Strongly Agree </li>
+  </ul>
+</div>
+<br>
+
+<div class="form-group">
+  <p>
+    How likely are you to buy a product recommended online?
+  </p>
+  <ul class="likert">
+    <li class="red-text"> Strongly Disagree </li>
+    <li><input type="radio" name="Social-Media" value="1" /></li>
+    <li><input type="radio" name="Social-Media" value="2" /></li>
+    <li><input type="radio" name="Social-Media" value="3" /></li>
+    <li><input type="radio" name="Social-Media" value="4" /></li>
+    <li><input type="radio" name="Social-Media" value="5" /></li>
+    <li class="green-text"> Strongly Agree </li>
+  </ul>
+</div>
+<br>
+
+<div class="form-group">
+  <p>
+    How likely are you to recommend a product to your online community?
+  </p>
+  <ul class="likert">
+    <li class="red-text"> Strongly Disagree </li>
+    <li><input type="radio" name="Social-Media" value="1" /></li>
+    <li><input type="radio" name="Social-Media" value="2" /></li>
+    <li><input type="radio" name="Social-Media" value="3" /></li>
+    <li><input type="radio" name="Social-Media" value="4" /></li>
+    <li><input type="radio" name="Social-Media" value="5" /></li>
+    <li class="green-text"> Strongly Agree </li>
+  </ul>
+</div>
+<br>
+
+<div class="form-group">
+  <p>
+    To what extent does a brands social media presence influence your purchasing decision? 
+  </p>
+  <ul class="likert">
+    <li class="red-text"> Strongly Disagree </li>
+    <li><input type="radio" name="Social-Media" value="1" /></li>
+    <li><input type="radio" name="Social-Media" value="2" /></li>
+    <li><input type="radio" name="Social-Media" value="3" /></li>
+    <li><input type="radio" name="Social-Media" value="4" /></li>
+    <li><input type="radio" name="Social-Media" value="5" /></li>
+    <li class="green-text"> Strongly Agree </li>
+  </ul>
+</div>
+<br>
+
+<div class="form-group">
+  <p>
+    Do you experience any form of anxiety while using social media platforms?
+  </p>
+  <ul class="likert">
+    <li class="red-text"> Strongly Disagree </li>
+    <li><input type="radio" name="Social-Media" value="1" /></li>
+    <li><input type="radio" name="Social-Media" value="2" /></li>
+    <li><input type="radio" name="Social-Media" value="3" /></li>
+    <li><input type="radio" name="Social-Media" value="4" /></li>
+    <li><input type="radio" name="Social-Media" value="5" /></li>
+    <li class="green-text"> Strongly Agree </li>
+  </ul>
+</div>
+<br>
+
+<div class="form-group">
+  <p>
+    To what extent does social media influence your behaviors and actions?
+  </p>
+  <ul class="likert">
+    <li class="red-text"> Strongly Disagree </li>
+    <li><input type="radio" name="Social-Media" value="1" /></li>
+    <li><input type="radio" name="Social-Media" value="2" /></li>
+    <li><input type="radio" name="Social-Media" value="3" /></li>
+    <li><input type="radio" name="Social-Media" value="4" /></li>
+    <li><input type="radio" name="Social-Media" value="5" /></li>
+    <li class="green-text"> Strongly Agree </li>
+  </ul>
+</div>
+<br>
+
+
+    <div class="form-group">
+        <p>
+          What do you use these platforms for?
+          <span class="clue">(Check all that apply)</span>
+        </p>
+  
+        <label
+          ><input
+            name="prefer"
+            value="front-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+          />To socialise with friends online</label
+        >
+        <label>
+          <input
+            name="prefer"
+            value="back-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+          />To pass time</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="data-visualization"
+            type="checkbox"
+            class="input-checkbox"
+          />To make new friends</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="challenges"
+            type="checkbox"
+            class="input-checkbox"
+          />To find things easily</label
+        >
+        
+        <label
+          ><input
+            name="prefer"
+            value="videos"
+            type="checkbox"
+            class="input-checkbox"
+          />To earn money</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="city-meetups"
+            type="checkbox"
+            class="input-checkbox"
+          />To share knowledge and/or consume knowledge</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="wiki"
+            type="checkbox"
+            class="input-checkbox"
+          />To find cheaper products and easy delivery</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="forum"
+            type="checkbox"
+            class="input-checkbox"
+          />To feel better</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="additional-courses"
+            type="checkbox"
+            class="input-checkbox"
+          />Other</label
+        >
+      </div>
+  
+      <div class="form-group">
+        <p>Anything else?</p>
+        <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter any additional feedback or queries here..."
+        ></textarea>
+      </div>
+  
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</body></html>
